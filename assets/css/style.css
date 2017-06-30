@@ -79,7 +79,8 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   color: #424242;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+  line-height: 32px; }
 
 .subtitle {
   font-family: "Roboto", sans-serif;
@@ -90,7 +91,8 @@ nav {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   padding-left: 0px;
-  color: #414549; }
+  color: #414549;
+  line-height: 24px; }
 
 .profileTitle {
   font-family: "Lekton", sans-serif;
@@ -114,7 +116,8 @@ nav {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   color: #424242;
-  margin: 20px 0 20px 0; }
+  margin: 20px 0 20px 0;
+  line-height: 32px; }
 .section-left p {
   font-family: "Lekton", sans-serif;
   padding-left: 0px;
@@ -123,11 +126,84 @@ nav {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   padding-left: 0px;
-  color: #414549; }
+  color: #414549;
+  line-height: 24px; }
 .section-left .roboto {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+
+.section-right h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0 20px 0;
+  line-height: 32px; }
+.section-right p {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+.section-right .parrafo-roboto {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   padding-left: 0px;
-  color: #414549; }
+  color: #414549;
+  line-height: 24px; }
+.section-right .roboto {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+.section-right a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif; }
+.section-right .more-news {
+  text-align: right; }
+
+.blueSquare {
+  background-color: #f1f3f4;
+  height: 100px;
+  margin-top: 30px; }
+  .blueSquare a {
+    text-decoration: none; }
+  .blueSquare .blue-letter {
+    text-align: right; }
+
+/*Third section styles starting*/
+.section-connectivity .left-column h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0 20px 0;
+  line-height: 32px; }
+.section-connectivity .left-column p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-left: 0px;
+  color: #414549;
+  line-height: 24px; }
+.section-connectivity .left-column .roboto {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+
+.section-connectivity .right-column h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0 20px 0;
+  line-height: 32px; }
+.section-connectivity .right-column p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-left: 0px;
+  color: #414549;
+  line-height: 24px; }
+.section-connectivity .right-column .roboto {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+
+.section-connectivity .espacio {
+  height: 100px; }
 
 /*# sourceMappingURL=style.css.map */

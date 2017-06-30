@@ -19,6 +19,8 @@ $quitar-padding:0px;
 $border-color-blue: rgb(66, 133, 244);
 $standard-img-width:410px;
 $standard-img-height:300px;
+$line-height-title: 32px;
+$line-height: 24px;
 
 
 nav{
@@ -86,6 +88,66 @@ nav{
         @include texto-parrafo;
     }
     .roboto{
+        @include fecha-y-profile;
+    }
+}
+.section-right{
+    h3{
+        @include title;
+    }
+    p{
+        @include fecha-y-profile;
+    }
+    .parrafo-roboto{
         @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    a{
+        text-decoration: none;
+        font-family: $subtitle-font-family-Roboto;
+    }
+    .more-news{
+         text-align: right; 
+    }
+}
+.blueSquare{
+    background-color: #f1f3f4;
+    height: 100px;
+    margin-top: 30px;
+    a{
+        text-decoration: none;
+    }
+    .blue-letter{
+        text-align: right;
+    }
+}
+/*Third section styles starting*/
+.section-connectivity .left-column{
+    h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+}
+.section-connectivity .right-column{
+     h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+}
+.section-connectivity{
+    .espacio{
+        height: 100px;
     }
 }

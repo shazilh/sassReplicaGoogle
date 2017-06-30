@@ -5,6 +5,7 @@
         }
         color: $title-gray;
         margin: $margin-up-bottton;
+        line-height: $line-height-title;
     }
 @mixin subtitle{
     
@@ -21,4 +22,5 @@
     }
         padding-left: $quitar-padding;
         color:$text-gray;
+        line-height: $line-height;
 }
