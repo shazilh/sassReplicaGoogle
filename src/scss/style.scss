@@ -1,0 +1,91 @@
+@import 'grid';
+@import 'variables';
+@import 'mixins';
+
+$container-width:100%;
+$container-height:600px;
+$img-size-width:900px;
+$img-size-height:100px;
+$margin-top:100px;
+$margin-up-bottton:20px 0 20px 0;
+$title-font-family-Product:'PT Sans', sans-serif;
+$title-font-family-size:36px;
+$title-font-family-size-medium:20px;
+$subtitle-font-family-Roboto: 'Roboto', sans-serif;
+$subtitle-font-family-size: 20px;
+$paragraph-font-size:14px;
+$profileTitle-font-family: 'Lekton', sans-serif;
+$quitar-padding:0px;
+$border-color-blue: rgb(66, 133, 244);
+$standard-img-width:410px;
+$standard-img-height:300px;
+
+
+nav{
+    margin-top: 50px;
+    .center{
+    text-align: center;
+    } 
+        ul {
+            li{
+                display: inline;
+                list-style: none;
+                color: $title-gray;
+                padding: 0 10px;
+            }
+    }
+}
+.logoSearch{
+    float:right;
+    clear:right;
+}
+//Terminan estilos para el nav
+.imagen{
+    width:$container-width; 
+    height: $container-height;
+    margin-top: 100px;
+}
+.titulo{
+    @include title;
+}
+.subtitle{
+    font-family: $subtitle-font-family-Roboto;
+    font-size: $subtitle-font-family-size;
+    color:$text-gray;
+}
+.paragraph{
+    @include texto-parrafo;
+}
+.profileTitle{
+    @include fecha-y-profile;
+}
+.linea{
+    width: $container-width;
+    background-color: $border-color-blue;  
+    margin:$margin-up-bottton;
+    height: 5px ;
+    
+}
+//Terminan estilos para la sección 1
+.section-left{
+    padding: $quitar-padding;
+}
+/*.standard-img{
+    width: $container-width;
+    height: $standard-img-height;
+}*/
+
+.section-left{
+    h3{
+        @include title;
+    }
+    p{
+        @include fecha-y-profile;
+    }
+    .parrafo-roboto{
+        @include texto-parrafo;
+    }
+    .roboto{
+        @include texto-parrafo;
+    }
+}

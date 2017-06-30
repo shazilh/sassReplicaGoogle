@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto; }
+
+.templateRow, .row:before, .row:after {
+  content: " ";
+  display: table; }
+
+.row:after {
+  clear: both; }
+
+[class*="col-"] {
+  min-height: 8px;
+  padding: 12px;
+  float: left; }
+
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
+nav {
+  margin-top: 50px; }
+  nav .center {
+    text-align: center; }
+  nav ul li {
+    display: inline;
+    list-style: none;
+    color: #424242;
+    padding: 0 10px; }
+
+.logoSearch {
+  float: right;
+  clear: right; }
+
+.imagen {
+  width: 100%;
+  height: 600px;
+  margin-top: 100px; }
+
+.titulo {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0 20px 0; }
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #414549; }
+
+.paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-left: 0px;
+  color: #414549; }
+
+.profileTitle {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+
+.linea {
+  width: 100%;
+  background-color: #4285f4;
+  margin: 20px 0 20px 0;
+  height: 5px; }
+
+.section-left {
+  padding: 0px; }
+
+/*.standard-img{
+    width: $container-width;
+    height: $standard-img-height;
+}*/
+.section-left h3 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  color: #424242;
+  margin: 20px 0 20px 0; }
+.section-left p {
+  font-family: "Lekton", sans-serif;
+  padding-left: 0px;
+  color: #5f6368; }
+.section-left .parrafo-roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-left: 0px;
+  color: #414549; }
+.section-left .roboto {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  padding-left: 0px;
+  color: #414549; }
+
+/*# sourceMappingURL=style.css.map */

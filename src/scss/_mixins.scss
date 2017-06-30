@@ -1,0 +1,24 @@
+@mixin title {
+        font: {
+            family: $title-font-family-Product;
+            size: $title-font-family-size-medium;
+        }
+        color: $title-gray;
+        margin: $margin-up-bottton;
+    }
+@mixin subtitle{
+    
+}
+@mixin fecha-y-profile{
+        font-family: $profileTitle-font-family;
+        padding-left: $quitar-padding;
+        color:$date-gray;
+}
+@mixin texto-parrafo{
+        font:{
+            family: $subtitle-font-family-Roboto;
+            size:$paragraph-font-size;
+    }
+        padding-left: $quitar-padding;
+        color:$text-gray;
+}
