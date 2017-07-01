@@ -70,6 +70,7 @@ nav {
   float: right;
   clear: right; }
 
+/*Terminan estilos para el nav*/
 .imagen {
   width: 100%;
   height: 600px;
@@ -105,13 +106,10 @@ nav {
   margin: 20px 0 20px 0;
   height: 5px; }
 
+/*Terminan estilos para la seccion 1*/
 .section-left {
   padding: 0px; }
 
-/*.standard-img{
-    width: $container-width;
-    height: $standard-img-height;
-}*/
 .section-left h3 {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;

@@ -1,28 +1,8 @@
 @import 'grid';
-@import 'variables';
+@import 'colors';
 @import 'mixins';
-
-$container-width:100%;
-$container-height:600px;
-$img-size-width:900px;
-$img-size-height:100px;
-$margin-top:100px;
-$margin-up-bottton:20px 0 20px 0;
-$title-font-family-Product:'PT Sans', sans-serif;
-$title-font-family-size:36px;
-$title-font-family-size-medium:20px;
-$subtitle-font-family-Roboto: 'Roboto', sans-serif;
-$subtitle-font-family-size: 20px;
-$paragraph-font-size:14px;
-$profileTitle-font-family: 'Lekton', sans-serif;
-$quitar-padding:0px;
-$border-color-blue: rgb(66, 133, 244);
-$standard-img-width:410px;
-$standard-img-height:300px;
-$line-height-title: 32px;
-$line-height: 24px;
-$required-space:60px;
-
+@import 'sizes';
+@import 'fonts';
 
 nav{
     margin-top: 50px;
@@ -42,7 +22,7 @@ nav{
     float:right;
     clear:right;
 }
-//Terminan estilos para el nav
+/*Terminan estilos para el nav*/
 .imagen{
     width:$container-width; 
     height: $container-height;
@@ -69,15 +49,10 @@ nav{
     height: 5px ;
     
 }
-//Terminan estilos para la sección 1
+/*Terminan estilos para la seccion 1*/
 .section-left{
     padding: $quitar-padding;
 }
-/*.standard-img{
-    width: $container-width;
-    height: $standard-img-height;
-}*/
-
 .section-left{
     h3{
         @include title;
