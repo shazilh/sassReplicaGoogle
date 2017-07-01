@@ -21,6 +21,7 @@ $standard-img-width:410px;
 $standard-img-height:300px;
 $line-height-title: 32px;
 $line-height: 24px;
+$required-space:60px;
 
 
 nav{
@@ -148,6 +149,133 @@ nav{
 }
 .section-connectivity{
     .espacio{
-        height: 100px;
+        height: $required-space;
+    }
+}
+/*Starts styles for section 3 Columns*/
+.section-3-columns{
+    h3{
+    @include title;
+}
+    a{
+        text-align: right;
+        text-decoration: none;
+        font-family: $subtitle-font-family-Roboto;
+    }
+    p{
+        @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    .espacio{
+        height: $required-space;
+    }
+}
+/*Section 2 columns large Sticky*/
+.sticky-left{
+    h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    .espacio{
+        height: $required-space;
+    }
+}
+.sticky-right{
+    h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    .espacio{
+        height: $required-space;
+    }
+}
+/*Starts latest-section*/
+.latest-section{
+    h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    .espacio{
+        height: $required-space;
+    }
+}
+.final-section{
+     h3{
+        @include title;
+    }
+    p{
+       @include texto-parrafo;
+    }
+    .roboto{
+        @include fecha-y-profile;
+    }
+    .espacio{
+        height: $required-space;
+    }
+}
+/*styles for links section*/
+.links-section{
+    h4{
+        @include title;
+    }
+    p{
+        @include texto-parrafo;
+        line-height: normal;
+        color:$date-gray;
+        
+    }
+    a{
+        text-decoration: none;
+        @include texto-parrafo;
+        line-height: normal;
+        color:$date-gray;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .right{
+        text-align: right;
+    }
+    .links-space{
+        margin-top: 73px;
+    }
+    hr{
+        width: $container-width;
+        background-color: $date-gray;  
+        margin:$margin-up-bottton;
+        height: 3px;
+        opacity: .2;
+    }
+}
+/*Styles for footer*/
+footer{
+       a{
+        text-decoration: none;
+        @include texto-parrafo;
+        line-height: normal;
+        color:$date-gray;
+    }
+    a:hover{
+        text-decoration: underline;
+    }  
+   .right{
+        text-align: right;
     }
 }
